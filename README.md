@@ -22,7 +22,7 @@ Pastikan sudah menginstal **Node.js** (versi terbaru direkomendasikan).
 1. Clone repository ini atau ekstrak file zip
    ```bash
    git clone <repository-url>
-   cd frontend-rintisan-master
+   cd frontend-rintisan
    ```
 
 2. Install dependencies
