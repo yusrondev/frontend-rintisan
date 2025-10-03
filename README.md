@@ -1,5 +1,59 @@
-# Vue 3 + Vite
+# Frontend Rintisan
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Frontend Rintisan adalah proyek antarmuka pengguna berbasis **Vue** dengan bundler **Vite**. 
+Proyek ini dirancang untuk pengembangan aplikasi web yang cepat, modular, dan mudah dikustomisasi.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 📂 Struktur Project
+
+```
+frontend-rintisan-master/
+├── public/             # File statis (ikon, gambar, dll)
+├── src/                # Source code Vue
+├── index.html          # Entry point aplikasi
+├── package.json        # Daftar dependencies & script npm
+├── vite.config.js      # Konfigurasi Vite
+└── .env                # Konfigurasi environment variable
+```
+
+## 🔧 Instalasi & Menjalankan
+
+Pastikan sudah menginstal **Node.js** (versi terbaru direkomendasikan).
+
+1. Clone repository ini atau ekstrak file zip
+   ```bash
+   git clone <repository-url>
+   cd frontend-rintisan-master
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Jalankan aplikasi dalam mode development
+   ```bash
+   npm run dev
+   ```
+
+   Aplikasi akan berjalan di `http://localhost:5173` (default Vite).
+
+4. Build aplikasi untuk production
+   ```bash
+   npm run build
+   ```
+
+5. Preview hasil build
+   ```bash
+   npm run preview
+   ```
+
+## 📜 Script NPM
+
+- `npm run dev` → Menjalankan server development
+- `npm run build` → Build project untuk production
+- `npm run preview` → Menjalankan preview hasil build
+
+## 🤝 Kontribusi
+
+Kontribusi sangat diterima!  
+Silakan fork repo ini, buat branch baru, lalu ajukan pull request.
