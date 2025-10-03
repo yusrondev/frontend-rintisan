@@ -52,8 +52,3 @@ Pastikan sudah menginstal **Node.js** (versi terbaru direkomendasikan).
 - `npm run dev` → Menjalankan server development
 - `npm run build` → Build project untuk production
 - `npm run preview` → Menjalankan preview hasil build
-
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima!  
-Silakan fork repo ini, buat branch baru, lalu ajukan pull request.
